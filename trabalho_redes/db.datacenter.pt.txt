@@ -1,0 +1,14 @@
+$TTL 604800
+$ORIGIN datacenter.pt.
+@	IN	SOA	ns1.datacenter.pt. adm.datacenter.pt. (
+			2	      ; Serial
+			604800	      ; Refresh
+			86400	      ; Retry
+			2419200       ; Expire
+			604800)       ; Negative Cache TTL
+	IN	NS	ns1.datacenter.pt.
+ns1	IN	A	198.116.168.194
+@	IN	A	198.116.168.194
+www	IN	A	198.116.168.194
+siteA	IN	A	198.116.168.194
+hostPC		IN	A	120.100.20.3
